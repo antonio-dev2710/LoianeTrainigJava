@@ -1,0 +1,35 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Teste",
+            "request": "launch",
+            "mainClass": "relacionamentoTemUm.exercicios.Teste",
+            "projectName": "LoianeTrainigJava_d520532a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste",
+            "request": "launch",
+            "mainClass": "relacionamentoTemUm.Teste",
+            "projectName": "LoianeTrainigJava_d520532a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exemplo01",
+            "request": "launch",
+            "mainClass": "recursividade.Exemplo01",
+            "projectName": "LoianeTrainigJava_d520532a"
+        }
+    ]
+}

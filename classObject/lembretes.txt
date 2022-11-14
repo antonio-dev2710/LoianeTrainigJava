@@ -1,0 +1,4 @@
+- classe mae ou classe pai de todas as classes javas
+primeira classe java
+- se sua classe não estende outras classes atomaticamente ira estender a classe object
+- apache commons lang para aplicar melhor esses métodos toString e Equals

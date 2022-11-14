@@ -1,0 +1,5 @@
+Existe heranca multipla no java?
+Não, o java não permite heranca multipla e a gnt viu que não é possível uma classe java extender mais de uma classe java porém o java permite que interfaces extender outras interfaces
+
+-Existe herenca multiplas de infaces no java porém não existe heranca de classes
+

@@ -1,0 +1,5 @@
+Interface é uma classe abstrata que tem apenas métodos abstratos
+Irá definir qual comportamenta aquela classe precisa implementar
+
+Então o conceito de interface é uma classe abstrata que tem métodos abstrados dentro dela
+os tipos de atributos dentro de uma interface é public final;

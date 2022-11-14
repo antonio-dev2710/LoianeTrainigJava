@@ -1,0 +1,16 @@
+- "TRY":bloco que é monitorado para erros, o java vai tentar executar o código caso tenha algo de errado o catch ira capturar o erro e ira fzr o tratamento das exceções
+- "CATCH":tratamento do erro
+
+- "FINALLY":executado após o TRY ou após o catch
+
+Vc poderia me explicar como é feito o tratamento de erros no java?
+O tratamento de erros é feito através do try do catch e do FINALLY
+como eles se comportam?
+o try vai tentar executar o codigo
+o catch vai capturar o exceção
+e o FINALLY vai ser executado independete se o codigo foi executado com sucesso ou se apresentou alguma exceção
+
+
+
+
+

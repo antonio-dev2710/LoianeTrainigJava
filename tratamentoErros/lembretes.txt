@@ -1,0 +1,31 @@
+- "TRY":bloco que é monitorado por erros
+- "CATCH":tratamento do erro
+
+Tratar erros: permitem que o programa execute uma determinada lógica caso o erro ocorra
+permite que o programa continue a execução
+
+try{
+
+}catch(TipoDaException exception){
+
+}
+
+Tratar variáveis exceptions de multiplos erros
+- blocos try só pode ter um vc pode ter blocos try anhinhasdos
+
+try{
+
+}catch(TipoDaException1 exception){
+
+}
+catch(TipoDaException2 exception){
+
+}
+
+Capturando exception generica 
+capturar um erro genérico utiliza a classe throwable é a super classe de todos os erros e as exeçoes do java
+
+Qual a diferença entre erro e exceção?
+
+É possível agrupar exceções similares a partir do java 7
+

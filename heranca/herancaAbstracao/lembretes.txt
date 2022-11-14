@@ -1,0 +1,4 @@
+Quando se tem uma classe abstrata e for instacanciar esse não será possivel pois a classe nao pode ser intaciada diretamente
+
+definie apenas como a classe deve ser
+Quando sim abstract na classe mãe não é possivel intaciar essa classe, apenas as classes filhas

@@ -1,0 +1,45 @@
+- Stacktrace and Throws
+
+ Classe throwable
+ classe mae todas as exceptions erros do java 
+ possui métodos úteis
+
+ métodos:
+ getMessage();:retorna a descrição do erro
+ printStackTrace("mostra em qual classe e em qual linha ocorreu o erro");:imprime o Stacktrace do erro
+
+ Error: resulta na finalização do programa
+ Exception: possível tratar o erro e continuar execução do programa
+ 
+
+
+for(int i =0; i<numeros.length;i++){
+            try{
+                System.out.println(numeros[i]+"/"+denominador[i]+" ="+(numeros[i]/denominador[i]));
+                 //primeiro as excecoes mais específicas
+            }catch(ArithmeticException e){
+                System.out.println("Erro ao dividir por zero");
+
+            }
+            //não usar
+            //super classe de todos os erros e exceções
+            catch( Throwable e){
+                System.out.println("Ocorreu um erro");
+
+
+        }
+        FORMA MAIS ELGANTE
+        for(int i =0; i<numeros.length;i++){
+            try{
+                System.out.println(numeros[i]+"/"+denominador[i]+" ="+(numeros[i]/denominador[i]));
+                 //primeiro as excecoes mais específicas
+            }catch(ArithmeticException e){
+                System.out.println("Erro ao dividir por zero");
+
+            }
+            //super classe de todos os erros e exceções
+            catch( Exception exc){
+                System.out.println("Ocorreu um erro");
+
+
+            }

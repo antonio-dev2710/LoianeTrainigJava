@@ -1,0 +1,9 @@
+- Palvra chave Throws
+
+Quando nos não queremos tratar a exceção 
+quando não se utiliza nem try nem o catch no nosso método
+
+Método pode disparar uma Exception
+Passa a responsabilidade para quem for utilizar o método
+
+ 

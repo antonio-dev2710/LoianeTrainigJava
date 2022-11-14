@@ -1,0 +1,4 @@
+- Conversão de objetos(casting)
+ .Converte uma subclass para o tipo SuperClasse ou vice-versa, isso é permitido pois existe heranca entre as classes
+ .Upcasting:
+ .Downcasting:

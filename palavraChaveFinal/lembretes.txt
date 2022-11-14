@@ -1,0 +1,2 @@
+Classe final não ser estendida;
+O valor de final não pode ser alterado
